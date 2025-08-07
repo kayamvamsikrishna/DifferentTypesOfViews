@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>SendDataByTV</h1>
+        <h1>{{name}}</h1>
+        <h1>{{age}}</h1>
+
+
+        <form method="POST">
+            {% csrf_token %}
+
+            {{ESFO.as_p}}<!-- paragraph formate -->
+            <input type="submit" value="SendDataByTV">
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>

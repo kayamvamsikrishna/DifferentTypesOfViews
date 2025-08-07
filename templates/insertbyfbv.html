@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>INSERTING BY FBV</h1>
+        <form method="POST">
+            {% csrf_token %}
+            {{ESFO.as_p}} <!-- paragraph formate -->
+            <input type="submit">
+
+        </form>
+    </center>
+</body>
+</html>
