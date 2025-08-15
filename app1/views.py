@@ -75,7 +75,7 @@ class SendDataByTV(TemplateView):
             Values can be of any type (e.g., strings, integers, form objects)'''
     def get_context_data(self, **kwargs: Any) -> dict[str, Any]: 
         ECDO=super().get_context_data(**kwargs)
-        ECDO['name']='PoojithaBangaram'
+        ECDO['name']='KVK'
         ECDO['age']=22
         ECDO['ESFO']=StudentForm()
         return ECDO
